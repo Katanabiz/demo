@@ -9,7 +9,6 @@ import '../Utils/my_global_widgets.dart';
 import '../dashboard/views/bio_parameters_view.dart';
 import 'documentation_page.dart';
 
-
 class ContactPage extends StatefulWidget {
   const ContactPage({Key? key}) : super(key: key);
 
@@ -340,13 +339,12 @@ class _ContactPageState extends State<ContactPage> {
                     onTap: () {
                       if (contacyFormKey.currentState!.validate()) {
                         log("Can Move Forward");
-                           Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (builder) => const BioParametersView(),
-            ),
-          );
-
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (builder) => const BioParametersView(),
+                          ),
+                        );
                       }
                     },
                     child: Container(

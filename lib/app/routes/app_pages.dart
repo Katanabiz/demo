@@ -1,4 +1,4 @@
-import '../module/Screens/landing_page.dart';
+import '../module/Screens/demo_user_screen.dart';
 import 'app_routes.dart';
 import '../module/dashboard/views/splash_view.dart';
 import 'package:get/get.dart' show GetPage, Transition;

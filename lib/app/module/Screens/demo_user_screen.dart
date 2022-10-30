@@ -33,7 +33,7 @@ class _DemoUserScreenState extends State<DemoUserScreen> {
           SizedBox(
             width: 8,
           ),
-          Image.asset('assets/images/logo.png')
+          Image.asset('assets/img/logo.png')
         ],
       ),
       const Divider(
