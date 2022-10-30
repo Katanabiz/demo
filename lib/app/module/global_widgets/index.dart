@@ -1,0 +1,29 @@
+library global_widgets;
+
+
+import 'package:dotted_border/dotted_border.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:get/get.dart';
+import 'package:flutter_scale_tap/flutter_scale_tap.dart';
+import 'package:line_icons/line_icons.dart';
+import 'dart:io';
+import 'package:flutter_svg/svg.dart';
+import 'package:animate_do/animate_do.dart';
+import '../../../common/index.dart';
+part '../global_widgets/check_list_widget.dart';
+part '../global_widgets/custom_app_bar_widget.dart';
+part '../global_widgets/custom_back_button_widget.dart';
+part '../global_widgets/custom_button_widget.dart';
+part '../global_widgets/custom_check_box_widget.dart';
+part '../global_widgets/custom_dropdown_widget.dart';
+part '../global_widgets/empty_list_widget.dart';
+part '../global_widgets/empty_widget.dart';
+part '../global_widgets/father_widget.dart';
+part '../global_widgets/loading_widget.dart';
+part '../global_widgets/pickup_date_widget.dart';
+part '../global_widgets/search_filter_control_widget.dart';
+part '../global_widgets/show_hide_widget.dart';
+part '../global_widgets/something_went_wrong_widget.dart';
+part '../global_widgets/text_field_widget.dart';
+part '../global_widgets/remove_scroll_glow_widget.dart';

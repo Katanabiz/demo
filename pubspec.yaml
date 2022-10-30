@@ -1,0 +1,105 @@
+name: b2b_product_app
+description: b2b health app
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.1.0+26
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  animate_do: ^2.0.0
+  badges: ^2.0.1
+
+  # MAP
+  # FILES, IMAGES
+  cached_network_image: ^3.2.1
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+1
+  extended_tabs: ^2.3.0
+  firebase_messaging: ^11.2.11
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.1.2
+  flutter_html: ^2.0.0
+
+  # WEB TOOLS
+  flutter_inappwebview: ^5.3.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.0
+  flutter_scale_tap: ^1.0.5
+  # scrollable_positioned_list: ^0.3.2
+  flutter_slidable: ^1.3.0
+  flutter_spinkit: ^5.0.0
+  flutter_staggered_animations: ^1.0.0
+  flutter_staggered_grid_view: ^0.6.1
+  flutter_svg: ^1.0.0
+  flutter_typeahead: ^4.0.0
+  fluttertoast: ^8.0.8
+
+  # ICON, FONTS
+  font_awesome_flutter: ^9.1.0
+
+  # STATE MANAGEMENT
+  get: ^4.6.5
+  get_storage: ^2.0.2
+  google_fonts: ^2.1.0
+  http: ^0.13.3
+  infinite_scroll_pagination: ^3.2.0
+  intl: ^0.17.0
+  jiffy: ^5.0.0
+  line_icons: ^2.0.1
+  lottie: ^1.1.0
+  open_file: ^3.2.1
+
+  # TOOLS
+
+  provider: ^6.0.3
+  scrollable_list_tabview: ^0.2.0-nullsafety
+  sensors_plus: 1.3.4+1
+  shared_preferences: ^2.0.6
+  shimmer: ^2.0.0
+  sms_otp_auto_verify: ^2.1.0
+  stream_chat_flutter_core: ^3.2.0
+  url_launcher: ^6.1.3
+  flutter_onboarding_slider: ^1.0.7
+  chips_choice_null_safety: ^2.0.6
+  flutter_custom_selector: ^0.0.3
+  percent_indicator: ^4.2.2
+  country_pickers: ^2.0.0
+
+  auto_route: ^5.0.2
+  auto_route_generator: ^5.0.1
+
+
+dev_dependencies:
+  charts_flutter: ^0.12.0
+  faker: ^2.0.0
+  flutter_native_splash: ^2.2.13
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/img/logo.png
+  android: true
+  ios: true
+  # ANALYTICS
+  flutter_lints: ^2.0.1
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+    - assets/svg/
+    - assets/gif/
+    - assets/lottie/
+    - assets/font/
+  # example:
+  # fonts:
+  #   - family: stc
+  #     fonts:
+  #       - asset: assets/font/stc.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
